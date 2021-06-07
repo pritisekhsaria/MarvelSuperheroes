@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #202020;
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+
+main{
+	width: 90%;
+	margin: 0 auto;
+	/*border: solid 2px white;*/
+	margin-top: 10px; 
+	padding-top: 0;
+	background-color: #202020;
+
+}
+
+header{
+	background-color: #ec1d24;
+	margin-top: 0;
+
+}
+
+header h2{
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	padding: 7px;
+	font-family: Arial black;
+
+}
+
+section{
+	width: 100%;
+	float: left;
+}
+
+.indexBlock{
+	width:33.3%;
+	float: left;
+}
+
+.divHeading{
+	
+	padding: 10px;
+	text-align: center;
+	border: solid 1px white;
+	
+}
+
+.divPicture{
+	text-align: center;
+	
+}
+
+hr{
+	color: #202020;
+}
+
+footer{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 1.5rem;
+	float: left;
+	text-align: center;
+}
+
+footer p{
+	margin: 0;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+a:link, a:visited, a:hover, a:active{
+	color: #ffffff;
+}
+
+a{
+	text-decoration: none;
+}
+
+.btn{
+	width: 100%;
+	float: left;
+	text-align: center;
+	
+}
+
+.btnLink{
+	padding: 10px;
+	background-color: #ec1d24;
+	border-radius: 10px;
+}
+
+table{
+	width: 100%;
+	float: left;
+}
+td{
+	
+	padding: 20px; 
+	text-align: center;
+
+}
+
+ul { 
+    list-style-image: url("bullet.gif"); 
+}
